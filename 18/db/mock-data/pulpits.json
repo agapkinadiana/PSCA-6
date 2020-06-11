@@ -1,0 +1,17 @@
+[
+  {
+    "pulpit": "ISIT",
+    "pulpit_name": "ISIT",
+    "faculty_name": "IT"
+  },
+  {
+    "pulpit": "PI",
+    "pulpit_name": "PI",
+    "faculty_name": "PIM"
+  },
+  {
+    "pulpit": "SAD",
+    "pulpit_name": "SAD",
+    "faculty_name": "HTIT"
+  }
+]

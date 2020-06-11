@@ -1,0 +1,8 @@
+{
+  "db": {
+    "host": "redis-12929.c16.us-east-1-3.ec2.cloud.redislabs.com",
+    "port": 12929,
+    "no_ready_check": true,
+    "auth_pass": "hH7kLbysJde1ggAcR9FKIKv8LVdjFwWT"
+  }
+}

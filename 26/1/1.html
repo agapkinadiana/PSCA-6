@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div>
+    <div>sum(3, 4): <span id="sum"></span></div>
+    <div>sub(3, 4): <span id="sub"></span></div>
+    <div>mul(3, 4): <span id="mul"></span></div>
+</div>
+
+<script>
+    // Run showBytes function and copy string that will appear there, and paste it here
+    function getUintArray() {
+        return [
+            0x00, 0x61, 0x73, 0x6d, 0x01, 0x00, 0x00, 0x00, 0x01,
+            0x87, 0x80, 0x80, 0x80, 0x00, 0x01, 0x60, 0x02, 0x7f,
+            0x7f, 0x01, 0x7f, 0x03, 0x84, 0x80, 0x80, 0x80, 0x00,
+            0x03, 0x00, 0x00, 0x00, 0x04, 0x84, 0x80, 0x80, 0x80,
+            0x00, 0x01, 0x70, 0x00, 0x00, 0x05, 0x83, 0x80, 0x80,
+            0x80, 0x00, 0x01, 0x00, 0x01, 0x06, 0x81, 0x80, 0x80,
+            0x80, 0x00, 0x00, 0x07, 0x9c, 0x80, 0x80, 0x80, 0x00,
+            0x04, 0x06, 0x6d, 0x65, 0x6d, 0x6f, 0x72, 0x79, 0x02,
+            0x00, 0x03, 0x73, 0x75, 0x6d, 0x00, 0x00, 0x03, 0x73,
+            0x75, 0x62, 0x00, 0x01, 0x03, 0x6d, 0x75, 0x6c, 0x00,
+            0x02, 0x0a, 0xa5, 0x80, 0x80, 0x80, 0x00, 0x03, 0x87,
+            0x80, 0x80, 0x80, 0x00, 0x00, 0x20, 0x01, 0x20, 0x00,
+            0x6a, 0x0b, 0x87, 0x80, 0x80, 0x80, 0x00, 0x00, 0x20,
+            0x00, 0x20, 0x01, 0x6b, 0x0b, 0x87, 0x80, 0x80, 0x80,
+            0x00, 0x00, 0x20, 0x01, 0x20, 0x00, 0x6c, 0x0b
+        ];
+    }
+
+    function showBytes() {
+        /*
+        int sum(int x, int y) {
+          return x + y;
+        }
+
+        int sub(int x, int y) {
+          return x - y;
+        }
+
+        int mul(int x, int y) {
+          return x * y;
+        }
+        */
+        // Copy bytes from .wasm file here: https://www.onlinehexeditor.com/
+        const wasmBytes = '00 61 73 6d 01 00 00 00 01 87 80 80 80 00 01 60\n' +
+            '02 7f 7f 01 7f 03 84 80 80 80 00 03 00 00 00 04\n' +
+            '84 80 80 80 00 01 70 00 00 05 83 80 80 80 00 01\n' +
+            '00 01 06 81 80 80 80 00 00 07 9c 80 80 80 00 04\n' +
+            '06 6d 65 6d 6f 72 79 02 00 03 73 75 6d 00 00 03\n' +
+            '73 75 62 00 01 03 6d 75 6c 00 02 0a a5 80 80 80\n' +
+            '00 03 87 80 80 80 00 00 20 01 20 00 6a 0b 87 80\n' +
+            '80 80 00 00 20 00 20 01 6b 0b 87 80 80 80 00 00\n' +
+            '20 01 20 00 6c 0b';
+
+        let wasmHexArrayString = '0x' + wasmBytes.split(new RegExp('[ \n]')).join(', 0x');
+
+        alert(wasmHexArrayString);
+    }
+
+
+    const wasmCode = new Uint8Array(getUintArray());
+
+    const wasmModule = new WebAssembly.Module(wasmCode);
+    const wasmInstance = new WebAssembly.Instance(wasmModule, {});
+
+    sum.innerText = wasmInstance.exports.sum(3, 4);
+    sub.innerText = wasmInstance.exports.sub(3, 4);
+    mul.innerText = wasmInstance.exports.mul(3, 4);
+
+</script>
+</body>
+</html>

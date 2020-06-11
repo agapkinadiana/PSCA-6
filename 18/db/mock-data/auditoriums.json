@@ -1,0 +1,20 @@
+[
+  {
+    "auditorium": "100-4",
+    "auditorium_name": "100-4",
+    "auditorium_capacity": 200,
+    "auditorium_typename": "LC"
+  },
+  {
+    "auditorium": "301-1",
+    "auditorium_name": "301-1",
+    "auditorium_capacity": 15,
+    "auditorium_typename": "LB"
+  },
+  {
+    "auditorium": "309-4",
+    "auditorium_name": "309-4",
+    "auditorium_capacity": 100,
+    "auditorium_typename": "PC"
+  }
+]

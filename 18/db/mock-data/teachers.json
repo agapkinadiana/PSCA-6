@@ -1,0 +1,17 @@
+[
+  {
+    "teacher": "Smelov",
+    "teacher_name": "Smelov",
+    "pulpit_name": "ISIT"
+  },
+  {
+    "teacher": "Ivanov",
+    "teacher_name": "Ivanov",
+    "pulpit_name": "SAD"
+  },
+  {
+    "teacher": "Zhilyak",
+    "teacher_name": "Zhilyak",
+    "pulpit_name": "PI"
+  }
+]

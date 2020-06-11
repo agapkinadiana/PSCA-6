@@ -1,0 +1,14 @@
+[
+  {
+    "auditorium_type": "LC",
+    "auditorium_typename": "LC"
+  },
+  {
+    "auditorium_type": "LB",
+    "auditorium_typename": "LB"
+  },
+  {
+    "auditorium_type": "PC",
+    "auditorium_typename": "PC"
+  }
+]

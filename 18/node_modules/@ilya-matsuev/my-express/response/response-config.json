@@ -1,0 +1,21 @@
+{
+  "fileTypeByExtension": {
+    "json": "application/json",
+    "xml": "application/xml",
+    "csv": "text/csv",
+    "html": "text/html",
+    "js": "application/javascript",
+    "css": "text/css",
+    "png": "image/png",
+    "jpg": "image/jpeg",
+    "gif": "image/gif",
+    "pdf": "application/pdf",
+    "doc": "application/msword",
+    "docx": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "xls": "application/vnd.ms-excel",
+    "xlsx": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+    "md": "text/markdown",
+    "mp3": "audio/mpeg",
+    "mp4": "audio/mp4"
+  }
+}

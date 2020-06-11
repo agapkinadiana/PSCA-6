@@ -1,0 +1,9 @@
+{
+  "name": "24",
+  "version": "1.0.0",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "express": "^4.17.1",
+    "webdav": "^3.3.0"
+  }
+}

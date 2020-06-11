@@ -1,0 +1,70 @@
+.form-part {
+    position: relative;
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.form-part.list {
+    height: 89%;
+    margin-bottom: 1%;
+}
+
+.form-part.edit {
+    height: 9%;
+    margin-bottom: 1%;
+    background-color: #b1bac2;
+}
+
+.form-part.edit > div {
+    position: relative;
+    width: 58%;
+    left: 20%;
+}
+
+.form-part.edit input, input:focus {
+    position: relative;
+    top: 10%;
+    height: 80%;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.form-part.control {
+    height: 10%;
+}
+
+.form-part.control > button {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+
+.controls-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.list .list-container {
+    position: relative;
+    top: 5%;
+    width: 100%;
+    height: 32rem;
+    overflow-y: scroll;
+}
+
+.list .list-container .record {
+    position: relative;
+    width: 90%;
+    left: 5%;
+    margin-bottom: .5rem;
+    border: 1px solid black;
+    background-color: #D7E1E9;
+    cursor: pointer;
+}
+
+.list .list-container .record:hover {
+    background-color: #b1bac2;
+}

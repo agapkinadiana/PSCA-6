@@ -1,0 +1,10 @@
+<div class="form-part list">
+    <div class="list-container">
+        {{#each phones}}
+            {{>record}}
+        {{/each}}
+    </div>
+</div>
+<div class="form-part control">
+    <button onclick="window.location.href = '/add'">Add new one</button>
+</div>

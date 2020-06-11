@@ -1,0 +1,15 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 8000
+  },
+  "webDav": {
+    "yandexDisk": {
+      "remoteUrl": "https://webdav.yandex.ru",
+      "opts": {
+        "username": "agapkinadianaa",
+        "password": "DeWWsh12"
+      }
+    }
+  }
+}
