@@ -1,0 +1,8 @@
+{
+  "name": "47.Протокол JSON-RPC. Разработка клиент-серверное приложение использующее протокол JSON-RPC",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "jsonrpc-server-http-nats": "^0.1.14"
+  }
+}

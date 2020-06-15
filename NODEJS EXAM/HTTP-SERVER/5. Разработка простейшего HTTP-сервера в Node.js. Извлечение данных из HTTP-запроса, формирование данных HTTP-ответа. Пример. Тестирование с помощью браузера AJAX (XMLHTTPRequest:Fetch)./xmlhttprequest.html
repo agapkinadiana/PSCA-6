@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xmlhttprequest</title>
+
+</head>
+<body>
+<div id="randomId"></div>
+<button onclick="xmlhttprequest()">Click</button>
+<script>
+function xmlhttprequest() {
+    var request = new XMLHttpRequest();
+    request.open('GET', 'http://localhost:3000/text', true);  //true - асинхронный
+    request.onreadystatechange = () => {
+        if(request.readyState === 4){
+            if(request.status === 200 ){
+                console.log('Ok'+ request.responseText);
+                document.getElementById('randomId').innerHTML = request.responseText;
+            }
+            else { alert(request.status + ': ' + request.statusText) }
+        }
+
+    };
+    request.send();
+    alert('Good');
+
+}
+</script>
+
+</body>
+</html>

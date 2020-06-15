@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="startWS()">startWS</button>
+<h1>Received:</h1>
+<div id="response-container"></div>
+<br><br>
+<h1>Sent:</h1>
+<div id="request-container"></div>
+
+<script>
+    let messageInterval;
+    let messageString = 'Client message';
+
+    function startWS() {
+        const socket = new WebSocket('ws://localhost:4000/wsserver');
+        socket.onmessage = message => {
+            console.log(message);
+            let newMessageDiv = document.createElement('div');
+            newMessageDiv.innerText = message.data;
+            document.getElementById('response-container').appendChild(newMessageDiv);
+        };
+
+        socket.onopen = () => {
+            messageInterval = setInterval(() => {
+                let message = messageString;
+                console.log(message)
+                socket.send(message);
+                let newMessageDiv = document.createElement('div');
+                newMessageDiv.innerText = message;
+                document.getElementById('request-container').appendChild(newMessageDiv);
+            }, 3000);
+        }
+
+        setTimeout(() => {
+            clearInterval(messageInterval);
+            socket.close();
+        }, 25000);
+    }
+
+</script>
+</body>
+</html>
+

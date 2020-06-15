@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fetch</title>
+</head>
+<body>
+<div id="randomId"></div>
+<button onclick="myfetch()">Click</button>
+<script>
+    function myfetch() {
+        let options = {
+            method:'GET',
+            headers:{'Content-Type':'text/plain'}
+        };
+        fetch('http://localhost:3000/text', options)
+            .then(response => response.text())
+            .then(responseText => {
+                document.getElementById('randomId').innerHTML = responseText;
+            });
+    }
+</script>
+</body>
+</html>

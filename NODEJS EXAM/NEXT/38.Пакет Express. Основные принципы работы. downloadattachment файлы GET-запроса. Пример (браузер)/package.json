@@ -1,0 +1,7 @@
+{
+  "name": "38.Пакет Express. Основные принципы работы. downloadattachment файлы GET-запроса. Пример (браузер)",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

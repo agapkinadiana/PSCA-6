@@ -1,0 +1,6 @@
+D:\Studying\Course_3\Second_2sem\Exams\NodeJs\New_Exam_Tasks\nodeJS-EZ-Exam2\For_44_Task\For_44_Task\bin\Debug\For_44_Task.exe.config
+D:\Studying\Course_3\Second_2sem\Exams\NodeJs\New_Exam_Tasks\nodeJS-EZ-Exam2\For_44_Task\For_44_Task\bin\Debug\For_44_Task.exe
+D:\Studying\Course_3\Second_2sem\Exams\NodeJs\New_Exam_Tasks\nodeJS-EZ-Exam2\For_44_Task\For_44_Task\bin\Debug\For_44_Task.pdb
+D:\Studying\Course_3\Second_2sem\Exams\NodeJs\New_Exam_Tasks\nodeJS-EZ-Exam2\For_44_Task\For_44_Task\obj\Debug\For_44_Task.csprojAssemblyReference.cache
+D:\Studying\Course_3\Second_2sem\Exams\NodeJs\New_Exam_Tasks\nodeJS-EZ-Exam2\For_44_Task\For_44_Task\obj\Debug\For_44_Task.exe
+D:\Studying\Course_3\Second_2sem\Exams\NodeJs\New_Exam_Tasks\nodeJS-EZ-Exam2\For_44_Task\For_44_Task\obj\Debug\For_44_Task.pdb

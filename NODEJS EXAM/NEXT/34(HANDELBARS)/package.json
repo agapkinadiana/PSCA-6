@@ -1,0 +1,10 @@
+{
+  "name": "34",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "express-handlebars": "^4.0.4"
+  }
+}

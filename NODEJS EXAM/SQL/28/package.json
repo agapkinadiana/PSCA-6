@@ -1,0 +1,8 @@
+{
+  "name": "55",
+  "version": "1.0.0",
+  "dependencies": {},
+  "devDependencies": {
+    "mssql": "^6.0.1"
+  }
+}

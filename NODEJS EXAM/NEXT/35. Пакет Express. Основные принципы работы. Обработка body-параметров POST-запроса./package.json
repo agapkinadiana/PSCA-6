@@ -1,0 +1,8 @@
+{
+  "name": "Пакет Express. Основные принципы работы. Обработка body-параметров POST-запроса.",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "latest"
+  }
+}

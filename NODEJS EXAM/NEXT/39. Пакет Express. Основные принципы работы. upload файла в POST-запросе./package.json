@@ -1,0 +1,10 @@
+{
+  "name": "Пакет Express. Основные принципы работы. upload файла в POST-запросе.",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "multer": "^1.4.2"
+  }
+}

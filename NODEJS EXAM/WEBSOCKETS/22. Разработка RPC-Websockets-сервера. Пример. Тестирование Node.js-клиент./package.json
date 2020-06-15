@@ -1,0 +1,7 @@
+{
+  "name": "35",
+  "version": "1.0.0",
+  "dependencies": {
+    "rpc-websockets": "^5.0.13"
+  }
+}

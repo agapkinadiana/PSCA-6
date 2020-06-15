@@ -1,0 +1,22 @@
+<cities>
+	<city>
+		<name>Minsk</name>
+		<size>Big</size>
+	</city>
+	<city>
+		<name>Mogilev</name>
+		<size>Big</size>
+	</city>
+	<city>
+		<name>Grodno</name>
+		<size>Big</size>
+	</city>
+	<city>
+		<name>Vitebsk</name>
+		<size>Big</size>
+	</city>
+	<city>
+		<name>Gomel</name>
+		<size>Big</size>
+	</city>
+</cities>

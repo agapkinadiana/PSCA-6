@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef1bd8d6-b25f-456e-930f-bcbaebb7af3e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../34.Пакет Express. Основные принципы работы. Обработка uri-параметров запроса. Пример (POSTMAN)/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../34.Пакет Express. Основные принципы работы. Обработка uri-параметров запроса. Пример (POSTMAN)/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../36.Пакет Express. Основные принципы работы. Обработка json-данных POST-запроса. Пример (POSTMAN)/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../36.Пакет Express. Основные принципы работы. Обработка json-данных POST-запроса. Пример (POSTMAN)/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../38.Пакет Express. Основные принципы работы. downloadattachment файлы GET-запроса. Пример (браузер)/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../38.Пакет Express. Основные принципы работы. downloadattachment файлы GET-запроса. Пример (браузер)/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../40.Пакет Express. Основные принципы работы. Обработка Cookie. Signed cookie. Пример(POSTMAN)/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../40.Пакет Express. Основные принципы работы. Обработка Cookie. Signed cookie. Пример(POSTMAN)/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../42.Пакет Express. Основные принципы работы. Переадресация. Пример(POSTMAN)/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../42.Пакет Express. Основные принципы работы. Переадресация. Пример(POSTMAN)/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../44.Пакет Express. Основные принципы работы. Запуск процесса операционной системы (exec), работа со стандартными потоками ввода вывода/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../44.Пакет Express. Основные принципы работы. Запуск процесса операционной системы (exec), работа со стандартными потоками ввода вывода/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../44.Пакет Express. Основные принципы работы. Запуск процесса операционной системы (exec), работа со стандартными потоками ввода вывода/support.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../47.Протокол JSON-RPC. Разработка клиент-серверное приложение использующее протокол JSON-RPC/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../47.Протокол JSON-RPC. Разработка клиент-серверное приложение использующее протокол JSON-RPC/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21/auth/digest.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../21/auth/digest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../21/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../21/index.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1dJ9VV5Q62ZYwOwDwZgsYJDBMoZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="11.10.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.js" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef1bd8d6-b25f-456e-930f-bcbaebb7af3e" name="Default Changelist" comment="" />
+      <created>1592132352647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592132352647</updated>
+      <workItem from="1592132353758" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

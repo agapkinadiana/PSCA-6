@@ -1,0 +1,20 @@
+FLASHBACK TABLE table_name TO BEFORE DROP;
+PROCEDURE increase_salary (
+   department_id_in   IN employees.department_id%TYPE,
+   increase_pct_in    IN NUMBER)
+IS
+BEGIN
+   FOR employee_rec
+      IN (SELECT employee_id
+            FROM employees
+           WHERE department_id =
+                    increase_salary.department_id_in)
+   LOOP
+      UPDATE employees emp
+         SET emp.salary = emp.salary + 
+             emp.salary * increase_salary.increase_pct_in
+       WHERE emp.employee_id = employee_rec.employee_id;
+   END LOOP;
+END increase_salary;
+select group#, member from v$logfile order by group#;
+select * from dba_segmentss;

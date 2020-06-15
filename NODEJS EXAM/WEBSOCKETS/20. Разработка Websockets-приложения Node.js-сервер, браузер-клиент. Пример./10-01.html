@@ -1,0 +1,30 @@
+<html>
+    <head></head>
+    <body>
+        <script>
+            let k=0;
+            function startWS() {
+                let socket = new WebSocket('ws:/localhost:4000/wsserver');
+                socket.onopen = () => {
+                    setInterval(() => {
+                        socket.send(`10-01 client: ${++k}`);
+                    }, 3000);
+                };
+                socket.onclose = (e) => {
+                    console.log('socket.onclose', e);
+                    clearInterval();
+                };
+                socket.onmessage = (e) => {
+                    console.log('socket.onmessage', e.data);
+                };
+                socket.onerror = function (error) {
+                    alert("Ошибка" + error.message);
+                };
+                setTimeout(() => {
+                    socket.close();
+                }, 15000);
+            };
+        </script>
+        <button onclick="startWS()">startWS</button>
+    </body>
+</html>

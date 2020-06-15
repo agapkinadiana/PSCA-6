@@ -1,0 +1,10 @@
+{
+  "name": "40.Пакет Express. Основные принципы работы. Обработка Cookie. Signed cookie. Пример(POSTMAN)",
+  "version": "1.0.0",
+  "devDependencies": {
+    "cookie-parser": "^1.4.5"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
