@@ -1,10 +1,10 @@
 const TeleBot = require('node-telegram-bot-api');
-const TOKEN = '900048883:AAHLoSLuep-W9ovzSJ5y-Z-xEtq9qL9KcAw';
+const TOKEN = '1269380909:AAGnlbcin_c8YvU2q2dzqNcgIejHTO3L4VQ';
 
 const bot = new TeleBot(TOKEN, {
     polling: true
 });
-// http://t.me/NodejsFitBot
+// https://t.me/agapkinabot
 
 bot.on('message', (msg) => {
     const chatId = msg.chat.id;

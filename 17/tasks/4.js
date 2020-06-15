@@ -8,6 +8,8 @@ module.exports = (client, hgetCount = 10000, hsetCount = 10000) => {
     runHSetQueries(client, decrCount);*/
 };
 
+//HSET ключ поле значение — Добавляет в хэш поле и значение. Если такого ключа не существовало, он будет добавлен.
+//В случае, если такое поле в хэше уже существует, оно будет перезаписано.
 function runHSetQueries(client, count) {
     let start = Date.now();
     for (let i = 0; i < count; i++) {
@@ -19,6 +21,7 @@ function runHSetQueries(client, count) {
     }
 }
 
+//HGET ключ поле значение — Возвращает значение, которое ассоциировано с полем в хэше
 function runHGetQueries(client, count) {
     let start = Date.now();
     for (let i = 0; i < count; i++) {

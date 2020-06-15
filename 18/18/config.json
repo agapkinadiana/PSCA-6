@@ -1,0 +1,32 @@
+{
+  "server": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "db": {
+    "mssql": {
+      "database": "cwp_sequelize",
+      "host": "localhost",
+      "dialect": "mssql",
+      "dialectModulePath": "sequelize-msnodesqlv8",
+      "dialectOptions": {
+        "connectionString": "Server=DESKTOP-RFSFAJA\\SQLEXPRESS;Database=cwp_sequelize; Trusted_Connection=yes;"
+      }
+    },
+    "mysql": {
+      "db_name": "UNIVERSITY",
+      "username": "root",
+      "password": "DeWWsh123",
+      "options": {
+        "dialect": "mysql",
+        "host": "localhost",
+        "port": 3306,
+        "logging": false,
+        "define": {
+          "timestamps": false,
+          "freezeTableName": true
+        }
+      }
+    }
+  }
+}

@@ -4,6 +4,7 @@ const cellPhonesModel = require('./../../db');
 
 cellPhonesRoute.get('/', (request, response) => {
     response.render('index', {
+      //  layout:'main',
         unlockOthers: true,
         phones: cellPhonesModel.getPhones()
     });

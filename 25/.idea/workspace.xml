@@ -1,13 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ac5fe92-0f2f-4ad0-ae7f-1b135e93f0a7" name="Default Changelist" comment="" />
+    <list default="true" id="3ac5fe92-0f2f-4ad0-ae7f-1b135e93f0a7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../17/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../20/.idea/20.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../21/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../22/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../23/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../17/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../17/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/tasks/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../17/tasks/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../17/tasks/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../17/tasks/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20/db/cellphones.json" beforeDir="false" afterPath="$PROJECT_DIR$/../20/db/cellphones.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../20/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../20/public/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../20/public/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20/routes/cellphones/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../20/routes/cellphones/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20/views/add.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../20/views/add.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20/views/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../20/views/index.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../20/views/update.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../20/views/update.handlebars" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../21/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../21/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../22/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../22/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../23/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../23/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../24/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../24/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../26/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../27/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../27/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../27/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../27/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1cvGUr2AEwsKUyhHcn3Hz4esE0Y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -48,6 +83,7 @@
       <updated>1591401671256</updated>
       <workItem from="1591401672502" duration="494000" />
       <workItem from="1591434987361" duration="442000" />
+      <workItem from="1592235803629" duration="389000" />
     </task>
     <servers />
   </component>

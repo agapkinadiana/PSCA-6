@@ -1,13 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58901a5d-f415-4bac-9fa4-012c0e1ca11e" name="Default Changelist" comment="" />
+    <list default="true" id="58901a5d-f415-4bac-9fa4-012c0e1ca11e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../18/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../27/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/tasks/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../18/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../26/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../26/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../27/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../27/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../27/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../27/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1XWBXYp8jBI3h6g9lg80T4NSKaE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,9 +32,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -42,6 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1581152011697</updated>
       <workItem from="1581152017389" duration="3807000" />
+      <workItem from="1592216589757" duration="1264000" />
     </task>
     <servers />
   </component>
@@ -49,21 +73,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1581167621752">
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592216870507">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1581167621752" />
-    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1581167621751">
+    <state x="184" y="113" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1592216870507" />
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom" timestamp="1592218076373">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1581167621751" />
-    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1581167621750">
+    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592218076373" />
+    <state width="1419" height="245" key="GridCell.Tab.0.center" timestamp="1592218076371">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1581167621750" />
-    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1581167621751">
+    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592218076371" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left" timestamp="1592218076370">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1581167621751" />
+    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592218076370" />
+    <state width="1419" height="245" key="GridCell.Tab.0.right" timestamp="1592218076372">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592218076372" />
   </component>
 </project>

@@ -1,12 +1,17 @@
 [
   {
     "id": 0,
-    "fullName": "Matsuev I.M.",
-    "phone": "2033067"
+    "fullName": "Ivanov I.M.",
+    "phone": "+375332033067"
   },
   {
     "id": 1,
-    "fullName": "Markovsky A.G.",
-    "phone": "4238990423657"
+    "fullName": "Septilko A.A.",
+    "phone": "375333212979"
+  },
+  {
+    "id": 2,
+    "fullName": "Agapkina D. S.",
+    "phone": "+375292033067"
   }
 ]

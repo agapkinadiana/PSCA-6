@@ -3,6 +3,7 @@
     width: 100%;
     border: 1px solid black;
     background-color: white;
+    border-radius: 20px;
 }
 
 .form-part.list {
@@ -13,7 +14,7 @@
 .form-part.edit {
     height: 9%;
     margin-bottom: 1%;
-    background-color: #b1bac2;
+    background-color: rgb(237, 208, 230);
 }
 
 .form-part.edit > div {
@@ -61,7 +62,7 @@
     left: 5%;
     margin-bottom: .5rem;
     border: 1px solid black;
-    background-color: #D7E1E9;
+    background-color: #eae8e8;
     cursor: pointer;
 }
 
