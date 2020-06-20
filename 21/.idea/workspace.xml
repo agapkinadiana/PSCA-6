@@ -2,30 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88be15ab-6b3d-49ef-8ee1-77e71722e94a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../17/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../18/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../20/.idea/20.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../27/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../17/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../17/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../17/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/tasks/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/../17/tasks/3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../17/tasks/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/../17/tasks/4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../18/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../18/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20/db/cellphones.json" beforeDir="false" afterPath="$PROJECT_DIR$/../20/db/cellphones.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../20/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20/public/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/../20/public/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20/public/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/../20/public/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20/routes/cellphones/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../20/routes/cellphones/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20/views/add.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../20/views/add.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20/views/index.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../20/views/index.handlebars" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../20/views/update.handlebars" beforeDir="false" afterPath="$PROJECT_DIR$/../20/views/update.handlebars" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../26/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../26/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../27/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../27/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../27/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../27/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../NODEJS EXAM/ПСКП.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../NODEJS EXAM/ПСКП.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +60,7 @@
       <workItem from="1590255101159" duration="5000" />
       <workItem from="1590257326830" duration="54000" />
       <workItem from="1592219603694" duration="1228000" />
+      <workItem from="1592302959779" duration="1807000" />
     </task>
     <servers />
   </component>
@@ -93,25 +72,25 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="274" y="125" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877@0.23.1440.877" timestamp="1590180728622" />
-    <state width="838" height="230" key="GridCell.Tab.0.bottom" timestamp="1590232605796">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1419" height="37" key="GridCell.Tab.0.bottom" timestamp="1592307988467">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587203266707" />
+    <state width="1419" height="37" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592307988467" />
     <state width="838" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1590232605796" />
-    <state width="838" height="230" key="GridCell.Tab.0.center" timestamp="1590232605795">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1419" height="37" key="GridCell.Tab.0.center" timestamp="1592307988465">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587203266703" />
+    <state width="1419" height="37" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592307988465" />
     <state width="838" height="230" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1590232605795" />
-    <state width="838" height="230" key="GridCell.Tab.0.left" timestamp="1590232605794">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1419" height="37" key="GridCell.Tab.0.left" timestamp="1592307988464">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587203266701" />
+    <state width="1419" height="37" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592307988464" />
     <state width="838" height="230" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1590232605794" />
-    <state width="838" height="230" key="GridCell.Tab.0.right" timestamp="1590232605796">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1419" height="37" key="GridCell.Tab.0.right" timestamp="1592307988466">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1419" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587203266706" />
+    <state width="1419" height="37" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592307988466" />
     <state width="838" height="230" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1590232605796" />
   </component>
 </project>
